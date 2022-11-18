@@ -1,0 +1,25 @@
+.detailspage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.detailsInner {
+  display: flex;
+  flex-direction: column;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  list-style-type: none;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 16px 0px;
+}
+.logo {
+  height: 60px;
+  width: 200px;
+  padding-left: 30px;
+}
